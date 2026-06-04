@@ -13,3 +13,5 @@ npx playwright install
 
 To run all tests, use:
 npx playwright test 
+
+swagger: http://localhost:8000/docs
