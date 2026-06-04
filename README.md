@@ -12,4 +12,4 @@ npm install
 npx playwright install
 
 To run all tests, use:
-npx playwright test
+npx playwright test 
