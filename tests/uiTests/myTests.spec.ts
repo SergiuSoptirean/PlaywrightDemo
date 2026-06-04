@@ -1,8 +1,6 @@
 // @ts-check
 
-const { test, expect } = require('@playwright/test');
-const {beforeAllTests, afterAllTests, testy} = require('./testBase');
-const { EvilTesterHomepage } = require('../tests-examples/PageObjects/EvilTesterHomepage');
+import { test, expect } from '@playwright/test';
 
 test('First test', async ({ page }) =>{
 
