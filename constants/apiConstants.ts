@@ -1,5 +1,9 @@
+import { getEnvironmentData } from '../helpers/apiHelpers/envHelper';
+
+const env = getEnvironmentData();
+
 export const ApiURLs = {
-    uiBaseUrl: "http://localhost:8000"
+    apiBaseUrl: env.api.baseUrl
 }
 
 export const endpoints = {
@@ -8,6 +12,6 @@ export const endpoints = {
 }
 
 export const userDetails = {
-    username: "admin@example.com",
-    password: "test1234"
+    username: env.api.user,
+    password: env.api.pass
 }

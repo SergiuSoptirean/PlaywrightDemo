@@ -5,7 +5,7 @@ import { ApiURLs, endpoints } from '../../constants/apiConstants';
 test('fetch user profile', async () => {
   const api = await getAuthenticatedContext();
 
-  const response = await api.get(ApiURLs.uiBaseUrl + endpoints.getUsers);
+  const response = await api.get(ApiURLs.apiBaseUrl + endpoints.getUsers);
   await expect(response.ok()).toBeTruthy();
 
   const responseData = await response.json();

@@ -5,7 +5,7 @@ export async function getAuthenticatedContext(): Promise<APIRequestContext> {
   // First create a temporary context to perform login
   const temp = await request.newContext();
 
-  const loginResponse = await temp.post(ApiURLs.uiBaseUrl + endpoints.authEndpoint, {
+  const loginResponse = await temp.post(ApiURLs.apiBaseUrl + endpoints.authEndpoint, {
     form: {
       username: userDetails.username,
       password: userDetails.password
