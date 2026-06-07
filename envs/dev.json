@@ -8,5 +8,12 @@
         "baseUrl": "http://asdf",
         "user": "asdf",
         "pass": "asdf"
+    },
+    "db": {
+        "host": "asdf",
+        "port": 5432,
+        "database": "your_db_name",
+        "user": "your_db_user",
+        "password": "your_db_password"
     }
 }
