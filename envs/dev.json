@@ -1,11 +1,11 @@
 {
     "ui": {
-        "baseUrl": "http://localhost:5173",
+        "baseUrl": "http://asdf",
         "user": "asdf",
         "pass": "asdf"
     },
     "api": {
-        "baseUrl": "http://localhost:8000",
+        "baseUrl": "http://asdf",
         "user": "asdf",
         "pass": "asdf"
     }

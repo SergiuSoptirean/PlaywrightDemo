@@ -2,11 +2,11 @@ import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import path from 'path';
 
-dotenv.config({ path: path.resolve(__dirname, '../../.env') });
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 export function getEnvironmentData() {
     const targetEnv = process.env.TARGET_ENV;
-    let envFilePath = path.resolve(__dirname, '../../envs');
+    let envFilePath = path.resolve(__dirname, '../envs');
 
     switch (targetEnv) {
         case 'local':

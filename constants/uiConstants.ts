@@ -1,4 +1,4 @@
-import { getEnvironmentData } from '../helpers/apiHelpers/envHelper';
+import { getEnvironmentData } from '../helpers/envHelper';
 
 const env = getEnvironmentData();
 
